@@ -1,4 +1,4 @@
-```c
+//```c
 #include <stdio.h>
 
 void printColumn(int a[][4], int colIndex, int rows, char when) {
@@ -32,7 +32,7 @@ int main() {
         {9, 10, 11, 12}
     };
 
-    int colIndexToChange = 2; // Change the values in the third column (column at index 2)
+    int colIndexToChange = 3; // Change the values in the third column (column at index 2)
     int newValue = 20;
 
     printColumn(array1, colIndexToChange, 3, 'B'); // 'B' stands for Before
@@ -41,4 +41,4 @@ int main() {
 
     return 0;
 }
-```
+//```

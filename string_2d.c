@@ -1,4 +1,4 @@
-```c
+//```c
 #include <stdio.h>
 #include <string.h>
 
@@ -25,7 +25,7 @@ void readNames(char Names[][30], int maxNames) {
 }
 
 int main() {
-    int maxNames = 5;
+    int maxNames = 6;
     char Names[maxNames][30]; // 2D array to store full names
 
     readNames(Names, maxNames);
@@ -37,4 +37,4 @@ int main() {
     }
     return 0;
 }
-```
+//```
